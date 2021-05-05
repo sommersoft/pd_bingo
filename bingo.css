@@ -1,0 +1,30 @@
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: #6361c2;
+    text-align: center;
+}
+
+.bingo-items {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: #6361c2;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-auto-rows: minmax(auto, 40px);
+}
+
+.bingo-item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.bingo-item-text {
+    padding-right: 5px
+}
+
+.far, .fas {
+    color: #9cd7fe;
+    outline: black 1px;
+}
