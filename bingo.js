@@ -50,7 +50,6 @@ function newBingoItem(item) {
 }
 
 function checkBingoItem(item) {
-    //item.classList.toggle('far');
     item.removeAttribute("class")
     item.classList.toggle('fas');
     item.classList.toggle('fa-check');

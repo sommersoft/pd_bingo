@@ -2,6 +2,22 @@ h1 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     color: #6361c2;
     text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.np-logo-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.np-logo {
+    max-width: 90x;
+    max-height: 30px;
 }
 
 .bingo-items {
@@ -17,6 +33,7 @@ h1 {
 .bingo-item {
     display: flex;
     align-items: center;
+    justify-self: center;
     flex-wrap: wrap;
 }
 
